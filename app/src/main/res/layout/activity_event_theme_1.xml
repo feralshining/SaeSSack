@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/dad_background"
+        android:elevation="-1dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/dad_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHeight_percent="1"
+        app:layout_constraintWidth_percent="1"
+        />
+
+
+    <TextView
+        android:id="@+id/title_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/scdream7"
+        android:text="이벤트"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <TextView
+        android:id="@+id/trend_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/scdream7"
+        android:text="트렌드 공지"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintWidth_percent="0.9">
+
+        <ImageButton
+            android:id="@+id/event_btn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dad_event_btn"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            />
+        <ImageButton
+            android:id="@+id/theme_btn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dad_theme_btn"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"/>
+
+        <ImageButton
+            android:id="@+id/home_btn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dad_home_btn"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"/>
+
+        <ImageButton
+            android:id="@+id/babyinfo_btn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dad_baby_profile_btn"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"/>
+
+        <ImageButton
+            android:id="@+id/setting_btn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dad_setting_btn"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/dad_btn_bar"
+        android:src="@drawable/dad_btn_bar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.91"
+        app:layout_constraintWidth_percent="0.9"
+        app:layout_constraintHeight_percent="0.03"/>
+
+    <ImageButton
+        android:id="@+id/goodrequest_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/dad_good_btn"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintVertical_bias="0.18"
+        app:layout_constraintWidth_percent="0.37"
+        app:layout_constraintHeight_percent="0.08"/>
+
+    <ImageButton
+        android:id="@+id/discount_notice_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/dad_sale_btn"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintVertical_bias="0.18"
+        app:layout_constraintWidth_percent="0.37"
+        app:layout_constraintHeight_percent="0.08"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        app:srcCompat="@drawable/dad_btn_bar2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.29"
+        app:layout_constraintWidth_percent="0.9"
+        app:layout_constraintHeight_percent="0.03"/>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.42"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintHeight_percent="0.2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageButton
+                android:adjustViewBounds="true"
+                android:id="@+id/event_btn_1"
+                android:scaleType="fitCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/banner_naver_cafe_mdpi" />
+
+            <ImageButton
+                android:adjustViewBounds="true"
+                android:id="@+id/event_btn_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:layout_marginEnd="8dp"
+                app:srcCompat="@drawable/banner_saessac_mdpi"
+                android:background="@android:color/transparent"
+                android:text="" />
+
+            <ImageButton
+                android:adjustViewBounds="true"
+                android:id="@+id/event_btn_3"
+                android:scaleType="fitCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/banner_art_mdpi" />
+
+
+            <ImageButton
+                android:adjustViewBounds="true"
+                android:id="@+id/event_btn_4"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/banner_tupl_mdpi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:background="@android:color/transparent"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#E9F6FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.75"
+        app:layout_constraintWidth_percent="0.75"
+        app:layout_constraintHeight_percent="0.145">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/trend_btn_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="'요즘 남편 없던 아빠'가 대체 뭐길래..?"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:id="@+id/trend_btn_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="최근 들어 핫한 육아용품"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/transparent"/>
+
+            <Button
+                android:id="@+id/trend_btn_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="우리아이에게 딱 맞는 옷은..?"
+                android:layout_marginBottom="8dp"
+                android:background="@android:color/transparent"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
