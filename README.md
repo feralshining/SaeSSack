@@ -96,9 +96,16 @@
 
 ---
 **투두리스트 페이지 & 다이어리 페이지**
-
+<table>
+  <tr>
+    <td>
 <img width="250" alt="page1" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/page3-2.PNG">
+    </td>
+    <td>
 <img width="250" alt="page1" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/page3-3.PNG">
+    </td>
+  </tr>
+</table>
 
 ---
 
