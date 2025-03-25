@@ -1,5 +1,5 @@
 ## 🌱 새싹 프로젝트 소개 🌱
-<img width="450" alt="Intro" src="https://i.imgur.com/vnW6O3b.png">
+<img width="250" alt="Intro" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/intro2.png">
 <br>
 <br>
 
@@ -56,41 +56,51 @@
 <br> 
 
 ### ➡️ 서비스 흐름도
-<img width="450" alt="Intro" src="https://i.imgur.com/vnW6O3b.png">
-
+<img width="1000" alt="flowChart" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/flowchart.png">
 <br>
 
 ### 🎨 페이지 구현
+
+---
+
 **이벤트 페이지**
 
-<img width="450" alt="Intro" src="https://i.imgur.com/vnW6O3b.png">
+<img width="250" alt="page1" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/page1.PNG">
 
-**테마 선택 페이지** 
+---
 
-<img width="450" alt="Intro" src="https://i.imgur.com/vnW6O3b.png">
+**테마 선택 페이지 & 선택 이후 메인 화면** 
 
+<img width="250" alt="page1" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/page2.PNG">
 
+<img width="250" alt="page1" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/page2-1.PNG">
+
+---
 **메인 페이지 & 기능 선택 페이지**
 
-<img width="450" alt="Intro" src="https://i.imgur.com/vnW6O3b.png">
+<img width="250" alt="page1" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/page3.PNG">
+<img width="250" alt="page1" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/page3-1.PNG">
 
-**투두리스트 페이지**
+---
+**투두리스트 페이지 & 다이어리 페이지**
 
-<img width="450" alt="Intro" src="https://i.imgur.com/vnW6O3b.png">
+<img width="250" alt="page1" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/page3-2.PNG">
+<img width="250" alt="page1" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/page3-3.PNG">
 
-**다이어리 페이지**
-
-<img width="450" alt="Intro" src="https://i.imgur.com/vnW6O3b.png">
+---
 
 **아이 프로필 작성 페이지**
 
-<img width="450" alt="Intro" src="https://i.imgur.com/vnW6O3b.png">
+<img width="250" alt="page1" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/page4.PNG">
+
+---
 
 **설정 페이지**
 
-<img width="450" alt="Intro" src="https://i.imgur.com/vnW6O3b.png">
+<img width="250" alt="page1" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/page5.PNG">
 
-<br>
+---
+
 
 ### 🚧 추가 개발 계획
 - **유료 호스팅 전환** : `무료 웹 호스팅 서버에서 유료 호스팅으로 업그레이드하여 더 빠르고 안정적인 서비스 제공`
