@@ -65,21 +65,34 @@
 
 **이벤트 페이지**
 
-<img width="250" alt="page1" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/page1.PNG">
+<img width="250" alt="Event" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/page1.PNG">
 
 ---
 
 **테마 선택 페이지 & 선택 이후 메인 화면** 
-
+<table>
+  <tr>
+    <td>
 <img width="250" alt="page1" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/page2.PNG">
-
+    </td>
+    <td>
 <img width="250" alt="page1" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/page2-1.PNG">
+    </td>
+  </tr>
+</table>
 
 ---
 **메인 페이지 & 기능 선택 페이지**
-
+<table>
+  <tr>
+    <td>
 <img width="250" alt="page1" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/page3.PNG">
+    </td>
+    <td>
 <img width="250" alt="page1" src="https://raw.githubusercontent.com/feralshining/SaeSSack/main/assets/page3-1.PNG">
+    </td>
+  </tr>
+</table>
 
 ---
 **투두리스트 페이지 & 다이어리 페이지**
