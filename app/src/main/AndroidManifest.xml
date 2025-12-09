@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.saessac"
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -19,7 +18,7 @@
         tools:targetApi="31">
 
         <activity
-            android:name=".SplashActivity"
+            android:name="com.saessac.activities.main.SplashActivity"
             android:exported="true"
             android:theme="@style/SplashScreen"
             android:windowSoftInputMode="adjustNothing">
@@ -29,77 +28,77 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginRegisterActivity"
+            android:name="com.saessac.activities.auth.AuthActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="false"
             android:windowSoftInputMode="adjustNothing" />
         <activity
-            android:name=".EventActivity"
+            android:name="com.saessac.activities.event.EventActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustNothing" />
         <activity
-            android:name=".EventGoodRequestActivity"
+            android:name="com.saessac.activities.event.GoodsRequestActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustNothing" />
         <activity
-            android:name=".EventDiscountActivity"
+            android:name="com.saessac.activities.event.EventDiscountActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustNothing" />
         <activity
-            android:name=".ThemeActivity"
+            android:name="com.saessac.activities.sharing.ThemeSelectionActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustNothing" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.saessac.activities.main.MainActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustNothing" />
         <activity
-            android:name=".WriteTodoListActivity"
+            android:name="com.saessac.activities.todo.TodoListActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustNothing" />
         <activity
-            android:name=".WriteDiaryActivity"
+            android:name="com.saessac.activities.diary.DiaryEditorActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustNothing" />
         <activity
-            android:name=".DiaryCountCheckActivity"
+            android:name="com.saessac.activities.diary.DiaryStatsActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustNothing" />
         <activity
-            android:name=".BabyInfoActivity"
+            android:name="com.saessac.activities.sharing.BabyInfoActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustNothing" />
         <activity
-            android:name=".SettingActivity"
+            android:name="com.saessac.activities.settings.SettingActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustNothing" />
         <activity
-            android:name=".SettingMyPageActivity"
+            android:name="com.saessac.activities.settings.MyPageActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustNothing" />
         <activity
-            android:name=".SettingServiceActivity"
+            android:name="com.saessac.activities.settings.CustomerServiceActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustNothing" />
         <activity
-            android:name=".SettingPolicyActivity"
+            android:name="com.saessac.activities.settings.PrivacyPolicyActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustNothing" />
         <activity
-            android:name=".SharingUUIDActivity"
+            android:name="com.saessac.activities.sharing.FamilySharingActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="adjustNothing" />
