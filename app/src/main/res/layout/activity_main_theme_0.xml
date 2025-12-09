@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginRegisterActivity">
+
+
+    <CalendarView
+        android:id="@+id/maincalendar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintHeight_percent="0.5"/>
+
+    <ImageView
+        android:id="@+id/mainlogo"
+        android:layout_width="69dp"
+        android:layout_height="77dp"
+        android:src="@drawable/cciac_mainmdpi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+    <TextView
+        android:id="@+id/maintitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_ahsing"
+        android:text="calender"
+        android:textColor="#FEDD59"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/scdream5"
+        android:text="이곳에 이번 달의 행사, 일정, 계획 등을 적어보세요."
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" >
+
+        <ImageButton
+            android:id="@+id/event_btn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/event_btnmdpi"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"
+            />
+        <ImageButton
+            android:id="@+id/theme_btn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/theme_btnmdpi"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"/>
+        <ImageButton
+            android:id="@+id/home_btn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home_btnmdpi"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"/>
+
+        <ImageButton
+            android:id="@+id/babyinfo_btn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/baby_profile_btnmdpi"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"/>
+        <ImageButton
+            android:id="@+id/setting_btn"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/setting_btnmdpi"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/brn_bar"
+        android:src="@drawable/btn_bar_mdpi"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.91"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

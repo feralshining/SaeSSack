@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/select_window"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/apply_thememdpi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.449"
+        app:layout_constraintWidth_percent="0.7"
+        app:layout_constraintHeight_percent="0.1"/>
+
+    <ImageButton
+        android:id="@+id/yes_btn"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/yes_btn_mdpi"
+        app:layout_constraintWidth_percent="0.27"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintBottom_toBottomOf="@id/select_window"
+        app:layout_constraintEnd_toEndOf="@id/select_window"
+        app:layout_constraintStart_toStartOf="@id/select_window"
+        app:layout_constraintTop_toTopOf="@id/select_window"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintVertical_bias="0.8"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:id="@+id/no_btn"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/no_btn_mdpi"
+        app:layout_constraintWidth_percent="0.27"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintBottom_toBottomOf="@id/select_window"
+        app:layout_constraintEnd_toEndOf="@id/select_window"
+        app:layout_constraintStart_toStartOf="@id/select_window"
+        app:layout_constraintTop_toTopOf="@id/select_window"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintVertical_bias="0.8"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

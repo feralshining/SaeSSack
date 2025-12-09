@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/select_window"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:src="@drawable/select_window_2__1mdpi"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/app_name"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/diary_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/diary_btn_3_mdpi"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintVertical_bias="0.53"/>
+
+    <ImageButton
+        android:id="@+id/todolist_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/todolist_btn_3_mdpi"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintVertical_bias="0.53"/>
+
+    <ImageButton
+        android:id="@+id/exit_btn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:src="@drawable/exit_btn_2_mdpi"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintVertical_bias="0.1"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
